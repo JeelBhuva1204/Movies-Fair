@@ -1,0 +1,85 @@
+body {
+      font-family: Arial, sans-serif;
+        margin: 0;
+          background: #111;
+            color: #fff;
+            }
+
+            header {
+              background: #222;
+                padding: 15px;
+                  display: flex;
+                    justify-content: space-between;
+                      align-items: center;
+                      }
+
+                      header h1 {
+                        margin: 0;
+                        }
+
+                        nav a {
+                          color: #fff;
+                            margin: 0 10px;
+                              text-decoration: none;
+                              }
+
+                              nav a:hover {
+                                color: #ff9800;
+                                }
+
+                                .hero {
+                                  text-align: center;
+                                    padding: 50px;
+                                      background: url('https://picsum.photos/1200/400') no-repeat center/cover;
+                                      }
+
+                                      .movies-grid {
+                                        display: grid;
+                                          grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+                                            gap: 15px;
+                                              padding: 20px;
+                                              }
+
+                                              .movie-card {
+                                                background: #333;
+                                                  padding: 20px;
+                                                    text-align: center;
+                                                      border-radius: 8px;
+                                                        transition: 0.3s;
+                                                        }
+
+                                                        .movie-card:hover {
+                                                          background: #ff9800;
+                                                            transform: scale(1.05);
+                                                            }
+
+                                                            form {
+                                                              display: flex;
+                                                                flex-direction: column;
+                                                                  gap: 10px;
+                                                                    padding: 20px;
+                                                                    }
+
+                                                                    form input, form textarea, form button {
+                                                                      padding: 10px;
+                                                                        border: none;
+                                                                          border-radius: 5px;
+                                                                          }
+
+                                                                          form button {
+                                                                            background: #ff9800;
+                                                                              color: #fff;
+                                                                                cursor: pointer;
+                                                                                }
+
+                                                                                form button:hover {
+                                                                                  background: #e68900;
+                                                                                  }
+
+                                                                                  footer {
+                                                                                    background: #222;
+                                                                                      text-align: center;
+                                                                                        padding: 10px;
+                                                                                          margin-top: 20px;
+                                                                                          }
+}
